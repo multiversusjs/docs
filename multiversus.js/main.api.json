@@ -760,7 +760,7 @@
             {
               "kind": "Method",
               "canonicalReference": "multiversus.js!Client#getBattlepass:member(1)",
-              "docComment": "/**\n * Fetch users Battlepass.\n *\n * @param id - The ID of the user.\n */\n",
+              "docComment": "/**\n * Fetches a user's battle pass.\n *\n * @param id - The ID of the user.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -812,7 +812,7 @@
             {
               "kind": "Method",
               "canonicalReference": "multiversus.js!Client#getClan:member(1)",
-              "docComment": "/**\n * Fetch users clan(s).\n *\n * @param id - The ID of the user.\n *\n * @param page - The match page to fetch.\n *\n * @param count - The count to fetch.\n */\n",
+              "docComment": "/**\n * Fetches the clans of a user.\n *\n * @param id - The ID of the user.\n *\n * @param page - The match page to fetch.\n *\n * @param count - The count to fetch.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -896,7 +896,7 @@
             {
               "kind": "Method",
               "canonicalReference": "multiversus.js!Client#getLeaderboard:member(1)",
-              "docComment": "/**\n * Fetch the global leaderboard.\n *\n * @param type - The type of leaderboard to fetch.\n */\n",
+              "docComment": "/**\n * Fetches the global leaderboard.\n *\n * @param type - The type of leaderboard to fetch.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -949,7 +949,7 @@
             {
               "kind": "Method",
               "canonicalReference": "multiversus.js!Client#getMatch:member(1)",
-              "docComment": "/**\n * Fetch a match from an ID.\n *\n * @param id - The ID of the match to fetch\n */\n",
+              "docComment": "/**\n * Fetches a match from an ID.\n *\n * @param id - The ID of the match to fetch\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1001,7 +1001,7 @@
             {
               "kind": "Method",
               "canonicalReference": "multiversus.js!Client#getMatches:member(1)",
-              "docComment": "/**\n * Fetch a page of matches of a user.\n *\n * @param id - The ID of the user.\n *\n * @param page - The match page to fetch.\n */\n",
+              "docComment": "/**\n * Fetches a page of matches of a user.\n *\n * @param id - The ID of the user.\n *\n * @param page - The match page to fetch.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1069,7 +1069,7 @@
             {
               "kind": "Method",
               "canonicalReference": "multiversus.js!Client#getProfile:member(1)",
-              "docComment": "/**\n * Fetch a profile from an ID.\n *\n * @param id - The ID of the profile to fetch\n */\n",
+              "docComment": "/**\n * Fetches a profile from an ID.\n *\n * @param id - The ID of the profile to fetch\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1130,7 +1130,7 @@
             {
               "kind": "Method",
               "canonicalReference": "multiversus.js!Client#getProfileLeaderboard:member(1)",
-              "docComment": "/**\n * Fetch the leaderboard of a user.\n *\n * @param id - The ID of the user.\n *\n * @param type - The leaderboard type to fetch.\n */\n",
+              "docComment": "/**\n * Fetches the leaderboard of a user.\n *\n * @param id - The ID of the user.\n *\n * @param type - The leaderboard type to fetch.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1199,7 +1199,7 @@
             {
               "kind": "Method",
               "canonicalReference": "multiversus.js!Client#getProfileLeaderboardForCharacter:member(1)",
-              "docComment": "/**\n * Fetch the leaderboard of a user with a character.\n *\n * @param id - The ID of the user.\n *\n * @param type - The leaderboard type to fetch.\n *\n * @param character - The character to fetch.\n */\n",
+              "docComment": "/**\n * Fetches the leaderboard of a user with a character.\n *\n * @param id - The ID of the user.\n *\n * @param type - The leaderboard type to fetch.\n *\n * @param character - The character to fetch.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1284,7 +1284,7 @@
             {
               "kind": "Method",
               "canonicalReference": "multiversus.js!Client#getQuests:member(1)",
-              "docComment": "/**\n * Fetch users quests.\n *\n * @param id - The ID of the user.\n */\n",
+              "docComment": "/**\n * Fetches a user's quests.\n *\n * @param id - The ID of the user.\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1456,7 +1456,7 @@
             {
               "kind": "Method",
               "canonicalReference": "multiversus.js!Client#searchByUsername:member(1)",
-              "docComment": "/**\n * Search for users from a username.\n *\n * @param username - Username to search for\n *\n * @param limit - Limit of users to return.\n *\n * @returns {Promise<searchResponse>}\n *\n * @example\n *\n * client.searchByUsername('ElijahPepe', 10);\n */\n",
+              "docComment": "/**\n * Searches for users from a username.\n *\n * @param username - Username to search for\n *\n * @param limit - Limit of users to return.\n *\n * @returns {Promise<searchResponse>}\n *\n * @example\n *\n * client.searchByUsername('ElijahPepe', 10);\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -1527,7 +1527,7 @@
         {
           "kind": "TypeAlias",
           "canonicalReference": "multiversus.js!LeaderboardType:type",
-          "docComment": "/**\n * Types in a leaderboard\n */\n",
+          "docComment": "/**\n * Possible values for a leaderboard\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -1551,6 +1551,117 @@
         },
         {
           "kind": "TypeAlias",
+          "canonicalReference": "multiversus.js!ModeData:type",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export type ModeData = "
+            },
+            {
+              "kind": "Content",
+              "text": "{\n\tloss: number;\n\n\twin_streak: number;\n\n\tlongest_win_streak: number;\n\n\twin: number;\n}"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "ModeData",
+          "typeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "TypeAlias",
+          "canonicalReference": "multiversus.js!ModeStats:type",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export type ModeStats = "
+            },
+            {
+              "kind": "Content",
+              "text": "{\n\t'2v2': "
+            },
+            {
+              "kind": "Reference",
+              "text": "ModeData",
+              "canonicalReference": "multiversus.js!ModeData:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n\n\tffa: "
+            },
+            {
+              "kind": "Reference",
+              "text": "ModeData",
+              "canonicalReference": "multiversus.js!ModeData:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n\n\t'1v1': "
+            },
+            {
+              "kind": "Reference",
+              "text": "ModeData",
+              "canonicalReference": "multiversus.js!ModeData:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n}"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "ModeStats",
+          "typeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 8
+          }
+        },
+        {
+          "kind": "TypeAlias",
+          "canonicalReference": "multiversus.js!PerkPreferences:type",
+          "docComment": "/**\n * API response for perk preferences\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export type PerkPreferences = "
+            },
+            {
+              "kind": "Content",
+              "text": "{\n\tCharacters: "
+            },
+            {
+              "kind": "Reference",
+              "text": "Object",
+              "canonicalReference": "!Object:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n}"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "PerkPreferences",
+          "typeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 4
+          }
+        },
+        {
+          "kind": "TypeAlias",
           "canonicalReference": "multiversus.js!ProfileResponse:type",
           "docComment": "/**\n * API response for requesting a profile\n */\n",
           "excerptTokens": [
@@ -1560,7 +1671,106 @@
             },
             {
               "kind": "Content",
-              "text": "{\n\tid: string;\n\tupdated_at: string;\n\taccount_id: string;\n\tcreated_at: string;\n\tlast_login: string;\n\tdata: {\n\t\tIsChildAccount: boolean;\n\t};\n\tserver_data: {\n\t\tstat_trackers: {\n\t\t\tHighestDamageDealt: number;\n\t\t\tTotalAttacksDodged: number;\n\t\t\tTotalAssists: number;\n\t\t\tTotalRingoutLeader: number;\n\t\t\tTotalRingouts: number;\n\t\t\tTotalWins: number;\n\t\t\tTotalDoubleRingouts: number;\n\t\t};\n\t\tlifetime_damage: number;\n\t\tlifetime_ringouts: number;\n\t\tmatches_played: number;\n\t\tsets_played: number;\n\t};\n}"
+              "text": "{\n\tid: string;\n\n\tupdated_at: string;\n\n\taccount_id: string;\n\n\tcreated_at: string;\n\n\tlast_login: string;\n\n\tpoints: boolean | null;\n\n\tdata: {\n\t\tIsChildAccount: boolean;\n\n\t\tPerkPreferences: "
+            },
+            {
+              "kind": "Reference",
+              "text": "PerkPreferences",
+              "canonicalReference": "multiversus.js!PerkPreferences:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n\n\t\t'2v2_prompt_shown': number;\n\t};\n\n\tserver_data: "
+            },
+            {
+              "kind": "Reference",
+              "text": "ServerData",
+              "canonicalReference": "multiversus.js!ServerData:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n\n\tmatches: "
+            },
+            {
+              "kind": "Reference",
+              "text": "ModeStats",
+              "canonicalReference": "multiversus.js!ModeStats:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n\n\tcross_match_results: "
+            },
+            {
+              "kind": "Reference",
+              "text": "Object",
+              "canonicalReference": "!Object:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n\n\tnotifications: "
+            },
+            {
+              "kind": "Reference",
+              "text": "Object",
+              "canonicalReference": "!Object:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n\n\taggregates: "
+            },
+            {
+              "kind": "Reference",
+              "text": "Object",
+              "canonicalReference": "!Object:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n\n\tcalculations: "
+            },
+            {
+              "kind": "Reference",
+              "text": "Object",
+              "canonicalReference": "!Object:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n\n\tfiles: "
+            },
+            {
+              "kind": "Reference",
+              "text": "Object",
+              "canonicalReference": "!Object:interface"
+            },
+            {
+              "kind": "Content",
+              "text": "[];\n\n\tuser_segments: string[];\n\n\trandom_distribution: number;\n\n\t'2v2': "
+            },
+            {
+              "kind": "Reference",
+              "text": "ModeData",
+              "canonicalReference": "multiversus.js!ModeData:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n\n\tffa: "
+            },
+            {
+              "kind": "Reference",
+              "text": "ModeData",
+              "canonicalReference": "multiversus.js!ModeData:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n\n\t'1v1': "
+            },
+            {
+              "kind": "Reference",
+              "text": "ModeData",
+              "canonicalReference": "multiversus.js!ModeData:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n}"
             },
             {
               "kind": "Content",
@@ -1571,13 +1781,13 @@
           "name": "ProfileResponse",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 2
+            "endIndex": 24
           }
         },
         {
           "kind": "TypeAlias",
           "canonicalReference": "multiversus.js!SearchResponse:type",
-          "docComment": "",
+          "docComment": "/**\n * API response for searches\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -1585,7 +1795,7 @@
             },
             {
               "kind": "Content",
-              "text": "{\n\tcursor: string;\n\tstart: number;\n\tcount: number;\n\ttotal: number;\n\tresults: "
+              "text": "{\n\tcursor: string;\n\n\tstart: number;\n\n\tcount: number;\n\n\ttotal: number;\n\n\tresults: "
             },
             {
               "kind": "Reference",
@@ -1611,7 +1821,7 @@
         {
           "kind": "TypeAlias",
           "canonicalReference": "multiversus.js!SearchResult:type",
-          "docComment": "",
+          "docComment": "/**\n * API response for search results\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -1619,7 +1829,7 @@
             },
             {
               "kind": "Content",
-              "text": "{\n\tscore: null | number;\n\tresult: "
+              "text": "{\n\tscore: number | null;\n\n\tresult: "
             },
             {
               "kind": "Reference",
@@ -1640,6 +1850,110 @@
           "typeTokenRange": {
             "startIndex": 1,
             "endIndex": 4
+          }
+        },
+        {
+          "kind": "TypeAlias",
+          "canonicalReference": "multiversus.js!ServerData:type",
+          "docComment": "/**\n * API response for a user's server data\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export type ServerData = "
+            },
+            {
+              "kind": "Content",
+              "text": "{\n\tdebug_all_unlocked: number;\n\n\tLevel: number;\n\n\tCurrentXP: number;\n\n\tloss_streak: number;\n\n\tBattlepassID: string;\n\n\tstat_trackers: "
+            },
+            {
+              "kind": "Reference",
+              "text": "StatTrackers",
+              "canonicalReference": "multiversus.js!StatTrackers:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n\n\tUnclaimedCharacterMasteryRewards: "
+            },
+            {
+              "kind": "Reference",
+              "text": "Object",
+              "canonicalReference": "!Object:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n\n\tlifetime_damage: number;\n\n\tlifetime_ringouts: number;\n\n\tmatches_played: number;\n\n\tsets_played: number;\n\n\tOwnedPerks: "
+            },
+            {
+              "kind": "Reference",
+              "text": "Object",
+              "canonicalReference": "!Object:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n\n\t'1v1shuffle': "
+            },
+            {
+              "kind": "Reference",
+              "text": "Object",
+              "canonicalReference": "!Object:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n\n\tCharacters: "
+            },
+            {
+              "kind": "Reference",
+              "text": "Object",
+              "canonicalReference": "!Object:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n\n\t'2v2shuffle': "
+            },
+            {
+              "kind": "Reference",
+              "text": "Object",
+              "canonicalReference": "!Object:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n\n\tRecentlyToasted: string[] | [];\n}"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "ServerData",
+          "typeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 14
+          }
+        },
+        {
+          "kind": "TypeAlias",
+          "canonicalReference": "multiversus.js!StatTrackers:type",
+          "docComment": "/**\n * API response for a user's tracked stats\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export type StatTrackers = "
+            },
+            {
+              "kind": "Content",
+              "text": "{\n\tHighestDamageDealt: number;\n\n\tTotalAttacksDodged: number;\n\n\tTotalAssists: number;\n\n\tTotalRingoutLeader: number;\n\n\tTotalRingouts: number;\n\n\tTotalWins: number;\n\n\tcharacter_wins: object;\n\n\tTotalDoubleRingouts: number;\n}"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "StatTrackers",
+          "typeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
           }
         }
       ]
