@@ -759,6 +759,58 @@
             },
             {
               "kind": "Method",
+              "canonicalReference": "multiversus.js!Client#getAccount:member(1)",
+              "docComment": "/**\n * Fetches an account from an ID.\n *\n * @param id - The ID of the account to fetch\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "getAccount(id: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<any>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 5
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "id",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "getAccount"
+            },
+            {
+              "kind": "Method",
               "canonicalReference": "multiversus.js!Client#getBattlepass:member(1)",
               "docComment": "/**\n * Fetches a user's battle pass.\n *\n * @param id - The ID of the user.\n */\n",
               "excerptTokens": [
@@ -945,6 +997,75 @@
               ],
               "isOptional": false,
               "name": "getLeaderboard"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "multiversus.js!Client#getLeaderboardForCharacter:member(1)",
+              "docComment": "/**\n * Fetches the global leaderboard for a character.\n *\n * @param type - The type of leaderboard to fetch.\n *\n * @param character - The character leaderboard to fetch.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "getLeaderboardForCharacter(type: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "LeaderboardType",
+                  "canonicalReference": "multiversus.js!LeaderboardType:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", character: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Promise",
+                  "canonicalReference": "!Promise:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<any>"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 7
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "type",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "character",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "name": "getLeaderboardForCharacter"
             },
             {
               "kind": "Method",
