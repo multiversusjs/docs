@@ -265,6 +265,86 @@
         },
         {
           "kind": "Class",
+          "canonicalReference": "multiversus.js!Base:class",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export abstract class Base "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "Base",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "Constructor",
+              "canonicalReference": "multiversus.js!Base:constructor(1)",
+              "docComment": "/**\n * Constructs a new instance of the `Base` class\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "public constructor(client: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Client",
+                  "canonicalReference": "multiversus.js!Client:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ");"
+                }
+              ],
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "client",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ]
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "multiversus.js!Base#client:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "public readonly client: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Client",
+                  "canonicalReference": "multiversus.js!Client:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": true,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "client",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false
+            }
+          ],
+          "implementsTokenRanges": []
+        },
+        {
+          "kind": "Class",
           "canonicalReference": "multiversus.js!BaseManager:class",
           "docComment": "",
           "excerptTokens": [
@@ -458,8 +538,9 @@
                   "text": "static AryaStark: "
                 },
                 {
-                  "kind": "Content",
-                  "text": "{\n\t\tid: string;\n\t\tdisplayName: string;\n\t\taliases: string[];\n\t}"
+                  "kind": "Reference",
+                  "text": "CharacterDataType",
+                  "canonicalReference": "multiversus.js!CharacterDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -487,8 +568,9 @@
                   "text": "static Batman: "
                 },
                 {
-                  "kind": "Content",
-                  "text": "{\n\t\tid: string;\n\t\tdisplayName: string;\n\t\taliases: string[];\n\t}"
+                  "kind": "Reference",
+                  "text": "CharacterDataType",
+                  "canonicalReference": "multiversus.js!CharacterDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -516,8 +598,9 @@
                   "text": "static BugsBunny: "
                 },
                 {
-                  "kind": "Content",
-                  "text": "{\n\t\tid: string;\n\t\tdisplayName: string;\n\t\taliases: string[];\n\t}"
+                  "kind": "Reference",
+                  "text": "CharacterDataType",
+                  "canonicalReference": "multiversus.js!CharacterDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -545,8 +628,9 @@
                   "text": "static Finn: "
                 },
                 {
-                  "kind": "Content",
-                  "text": "{\n\t\tid: string;\n\t\tdisplayName: string;\n\t\taliases: string[];\n\t}"
+                  "kind": "Reference",
+                  "text": "CharacterDataType",
+                  "canonicalReference": "multiversus.js!CharacterDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -574,8 +658,9 @@
                   "text": "static Garnet: "
                 },
                 {
-                  "kind": "Content",
-                  "text": "{\n\t\tid: string;\n\t\tdisplayName: string;\n\t\taliases: string[];\n\t}"
+                  "kind": "Reference",
+                  "text": "CharacterDataType",
+                  "canonicalReference": "multiversus.js!CharacterDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -603,8 +688,9 @@
                   "text": "static HarleyQuinn: "
                 },
                 {
-                  "kind": "Content",
-                  "text": "{\n\t\tid: string;\n\t\tdisplayName: string;\n\t\taliases: string[];\n\t}"
+                  "kind": "Reference",
+                  "text": "CharacterDataType",
+                  "canonicalReference": "multiversus.js!CharacterDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -632,8 +718,9 @@
                   "text": "static IronGiant: "
                 },
                 {
-                  "kind": "Content",
-                  "text": "{\n\t\tid: string;\n\t\tdisplayName: string;\n\t\taliases: string[];\n\t}"
+                  "kind": "Reference",
+                  "text": "CharacterDataType",
+                  "canonicalReference": "multiversus.js!CharacterDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -661,8 +748,9 @@
                   "text": "static Jake: "
                 },
                 {
-                  "kind": "Content",
-                  "text": "{\n\t\tid: string;\n\t\tdisplayName: string;\n\t\taliases: string[];\n\t}"
+                  "kind": "Reference",
+                  "text": "CharacterDataType",
+                  "canonicalReference": "multiversus.js!CharacterDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -690,8 +778,9 @@
                   "text": "static LeBronJames: "
                 },
                 {
-                  "kind": "Content",
-                  "text": "{\n\t\tid: string;\n\t\tdisplayName: string;\n\t\taliases: string[];\n\t}"
+                  "kind": "Reference",
+                  "text": "CharacterDataType",
+                  "canonicalReference": "multiversus.js!CharacterDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -711,6 +800,36 @@
             },
             {
               "kind": "Property",
+              "canonicalReference": "multiversus.js!CharacterData.Morty:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "static Morty: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "CharacterDataType",
+                  "canonicalReference": "multiversus.js!CharacterDataType:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "Morty",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": true,
+              "isProtected": false
+            },
+            {
+              "kind": "Property",
               "canonicalReference": "multiversus.js!CharacterData.Reindog:member",
               "docComment": "",
               "excerptTokens": [
@@ -719,8 +838,9 @@
                   "text": "static Reindog: "
                 },
                 {
-                  "kind": "Content",
-                  "text": "{\n\t\tid: string;\n\t\tdisplayName: string;\n\t\taliases: string[];\n\t}"
+                  "kind": "Reference",
+                  "text": "CharacterDataType",
+                  "canonicalReference": "multiversus.js!CharacterDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -748,8 +868,9 @@
                   "text": "static RickSanchez: "
                 },
                 {
-                  "kind": "Content",
-                  "text": "{\n\t\tid: string;\n\t\tdisplayName: string;\n\t\taliases: string[];\n\t}"
+                  "kind": "Reference",
+                  "text": "CharacterDataType",
+                  "canonicalReference": "multiversus.js!CharacterDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -777,8 +898,9 @@
                   "text": "static Shaggy: "
                 },
                 {
-                  "kind": "Content",
-                  "text": "{\n\t\tid: string;\n\t\tdisplayName: string;\n\t\taliases: string[];\n\t}"
+                  "kind": "Reference",
+                  "text": "CharacterDataType",
+                  "canonicalReference": "multiversus.js!CharacterDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -806,8 +928,9 @@
                   "text": "static StevenUniverse: "
                 },
                 {
-                  "kind": "Content",
-                  "text": "{\n\t\tid: string;\n\t\tdisplayName: string;\n\t\taliases: string[];\n\t}"
+                  "kind": "Reference",
+                  "text": "CharacterDataType",
+                  "canonicalReference": "multiversus.js!CharacterDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -835,8 +958,9 @@
                   "text": "static Superman: "
                 },
                 {
-                  "kind": "Content",
-                  "text": "{\n\t\tid: string;\n\t\tdisplayName: string;\n\t\taliases: string[];\n\t}"
+                  "kind": "Reference",
+                  "text": "CharacterDataType",
+                  "canonicalReference": "multiversus.js!CharacterDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -864,8 +988,9 @@
                   "text": "static Taz: "
                 },
                 {
-                  "kind": "Content",
-                  "text": "{\n\t\tid: string;\n\t\tdisplayName: string;\n\t\taliases: string[];\n\t}"
+                  "kind": "Reference",
+                  "text": "CharacterDataType",
+                  "canonicalReference": "multiversus.js!CharacterDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -893,8 +1018,9 @@
                   "text": "static TomAndJerry: "
                 },
                 {
-                  "kind": "Content",
-                  "text": "{\n\t\tid: string;\n\t\tdisplayName: string;\n\t\taliases: string[];\n\t}"
+                  "kind": "Reference",
+                  "text": "CharacterDataType",
+                  "canonicalReference": "multiversus.js!CharacterDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -922,8 +1048,9 @@
                   "text": "static Velma: "
                 },
                 {
-                  "kind": "Content",
-                  "text": "{\n\t\tid: string;\n\t\tdisplayName: string;\n\t\taliases: string[];\n\t}"
+                  "kind": "Reference",
+                  "text": "CharacterDataType",
+                  "canonicalReference": "multiversus.js!CharacterDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -951,8 +1078,9 @@
                   "text": "static WonderWoman: "
                 },
                 {
-                  "kind": "Content",
-                  "text": "{\n\t\tid: string;\n\t\tdisplayName: string;\n\t\taliases: string[];\n\t}"
+                  "kind": "Reference",
+                  "text": "CharacterDataType",
+                  "canonicalReference": "multiversus.js!CharacterDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -972,6 +1100,104 @@
             }
           ],
           "implementsTokenRanges": []
+        },
+        {
+          "kind": "Interface",
+          "canonicalReference": "multiversus.js!CharacterDataType:interface",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface CharacterDataType "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "CharacterDataType",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "multiversus.js!CharacterDataType#aliases:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "aliases: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string[]"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "aliases",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "multiversus.js!CharacterDataType#displayName:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "displayName: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "displayName",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "multiversus.js!CharacterDataType#id:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "id: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "id",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ],
+          "extendsTokenRanges": []
         },
         {
           "kind": "Class",
@@ -2113,12 +2339,12 @@
         },
         {
           "kind": "TypeAlias",
-          "canonicalReference": "multiversus.js!LeaderboardType:type",
-          "docComment": "/**\n * Possible values for a leaderboard\n */\n",
+          "canonicalReference": "multiversus.js!LeaderboardTypes:type",
+          "docComment": "",
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export type LeaderboardType = "
+              "text": "export type LeaderboardTypes = "
             },
             {
               "kind": "Content",
@@ -2130,7 +2356,7 @@
             }
           ],
           "releaseTag": "Public",
-          "name": "LeaderboardType",
+          "name": "LeaderboardTypes",
           "typeTokenRange": {
             "startIndex": 1,
             "endIndex": 2
@@ -2321,7 +2547,7 @@
             {
               "kind": "Property",
               "canonicalReference": "multiversus.js!ModeData#longest_win_streak:member",
-              "docComment": "/**\n * The longest win streak the user has had in this mode  @type {number}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2336,7 +2562,7 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "longest_win_streak",
@@ -2350,7 +2576,7 @@
             {
               "kind": "Property",
               "canonicalReference": "multiversus.js!ModeData#loss:member",
-              "docComment": "/**\n * The number of losses the user has in this mode  @type {number}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2365,7 +2591,7 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "loss",
@@ -2379,7 +2605,7 @@
             {
               "kind": "Property",
               "canonicalReference": "multiversus.js!ModeData#win_streak:member",
-              "docComment": "/**\n * The win streak the user has in this mode  @type {number}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2394,7 +2620,7 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "win_streak",
@@ -2408,7 +2634,7 @@
             {
               "kind": "Property",
               "canonicalReference": "multiversus.js!ModeData#win:member",
-              "docComment": "/**\n * The number of wins the user has in this mode  @type {number}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2423,7 +2649,7 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "win",
@@ -2454,7 +2680,7 @@
             {
               "kind": "Property",
               "canonicalReference": "multiversus.js!ModeStats#\"1v1\":member",
-              "docComment": "/**\n * The user's stats for 1v1s  @type {ModeData}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2470,7 +2696,7 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "\"1v1\"",
@@ -2484,7 +2710,7 @@
             {
               "kind": "Property",
               "canonicalReference": "multiversus.js!ModeStats#\"2v2\":member",
-              "docComment": "/**\n * The user's stats for 2v2s  @type {ModeData}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2500,7 +2726,7 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "\"2v2\"",
@@ -2514,7 +2740,7 @@
             {
               "kind": "Property",
               "canonicalReference": "multiversus.js!ModeStats#ffa:member",
-              "docComment": "/**\n * The user's stats for ffa matches  @type {ModeData}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2530,7 +2756,7 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "ffa",
@@ -2545,13 +2771,13 @@
           "implementsTokenRanges": []
         },
         {
-          "kind": "Class",
-          "canonicalReference": "multiversus.js!PerkPreferences:class",
-          "docComment": "/**\n * API response for perk preferences\n */\n",
+          "kind": "Interface",
+          "canonicalReference": "multiversus.js!PerkPreferences:interface",
+          "docComment": "",
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export class PerkPreferences "
+              "text": "export interface PerkPreferences "
             }
           ],
           "releaseTag": "Public",
@@ -2559,9 +2785,9 @@
           "preserveMemberOrder": false,
           "members": [
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!PerkPreferences#Characters:member",
-              "docComment": "/**\n * Object of characters  @type {Object}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -2577,10 +2803,658 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "Characters",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ],
+          "extendsTokenRanges": []
+        },
+        {
+          "kind": "Class",
+          "canonicalReference": "multiversus.js!Profile:class",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export class Profile extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Base",
+              "canonicalReference": "multiversus.js!Base:class"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "Profile",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "Property",
+              "canonicalReference": "multiversus.js!Profile#\"1v1\":member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "public '1v1': "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ModeData",
+                  "canonicalReference": "multiversus.js!ModeData:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "\"1v1\"",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "multiversus.js!Profile#\"2v2\":member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "public '2v2': "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ModeData",
+                  "canonicalReference": "multiversus.js!ModeData:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "\"2v2\"",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Constructor",
+              "canonicalReference": "multiversus.js!Profile:constructor(1)",
+              "docComment": "/**\n * Constructs a new instance of the `Profile` class\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "protected constructor(client: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Client",
+                  "canonicalReference": "multiversus.js!Client:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", data: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Object",
+                  "canonicalReference": "!Object:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ");"
+                }
+              ],
+              "releaseTag": "Public",
+              "isProtected": true,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "client",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "data",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                }
+              ]
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "multiversus.js!Profile#account_id:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "public account_id: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "account_id",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "multiversus.js!Profile#aggregates:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "public aggregates: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Object",
+                  "canonicalReference": "!Object:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "aggregates",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "multiversus.js!Profile#calculations:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "public calculations: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Object",
+                  "canonicalReference": "!Object:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "calculations",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "multiversus.js!Profile#created_at:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "public created_at: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "created_at",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "multiversus.js!Profile#cross_match_results:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "public cross_match_results: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Object",
+                  "canonicalReference": "!Object:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "cross_match_results",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "multiversus.js!Profile#data:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "public data: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "{\n\t\tIsChildAccount: boolean;\n\t\tPerkPreferences: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "PerkPreferences",
+                  "canonicalReference": "multiversus.js!PerkPreferences:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";\n\t\t'2v2_prompt_shown': number;\n\t}"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "data",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "multiversus.js!Profile#ffa:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "public ffa: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ModeData",
+                  "canonicalReference": "multiversus.js!ModeData:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "ffa",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "multiversus.js!Profile#files:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "public files: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Object",
+                  "canonicalReference": "!Object:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "[]"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "files",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 3
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "multiversus.js!Profile#id:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "public id: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "id",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "multiversus.js!Profile#last_login:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "public last_login: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "last_login",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "multiversus.js!Profile#matches:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "public matches: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ModeStats",
+                  "canonicalReference": "multiversus.js!ModeStats:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "matches",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "multiversus.js!Profile#notifications:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "public notifications: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Object",
+                  "canonicalReference": "!Object:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "notifications",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "multiversus.js!Profile#points:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "public points: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean | null"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "points",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "multiversus.js!Profile#random_distribution:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "public random_distribution: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "random_distribution",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "multiversus.js!Profile#server_data:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "public server_data: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ServerData",
+                  "canonicalReference": "multiversus.js!ServerData:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "server_data",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "multiversus.js!Profile#updated_at:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "public updated_at: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "updated_at",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "multiversus.js!Profile#user_segments:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "public user_segments: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string[]"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "user_segments",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -2589,6 +3463,10 @@
               "isProtected": false
             }
           ],
+          "extendsTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          },
           "implementsTokenRanges": []
         },
         {
@@ -2642,8 +3520,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "ProfileResponse",
-                  "canonicalReference": "multiversus.js!ProfileResponse:class"
+                  "text": "Profile",
+                  "canonicalReference": "multiversus.js!Profile:class"
                 },
                 {
                   "kind": "Content",
@@ -2719,8 +3597,8 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "SearchResponse",
-                  "canonicalReference": "multiversus.js!SearchResponse:class"
+                  "text": "Search",
+                  "canonicalReference": "multiversus.js!Search:class"
                 },
                 {
                   "kind": "Content",
@@ -2773,597 +3651,6 @@
             "startIndex": 1,
             "endIndex": 2
           },
-          "implementsTokenRanges": []
-        },
-        {
-          "kind": "Class",
-          "canonicalReference": "multiversus.js!ProfileResponse:class",
-          "docComment": "/**\n * API response for requesting a profile\n */\n",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "export class ProfileResponse "
-            }
-          ],
-          "releaseTag": "Public",
-          "name": "ProfileResponse",
-          "preserveMemberOrder": false,
-          "members": [
-            {
-              "kind": "Property",
-              "canonicalReference": "multiversus.js!ProfileResponse#\"1v1\":member",
-              "docComment": "/**\n * The user's stats in 1v1s  @type {ModeData}\n *\n * @readonly\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "'1v1': "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ModeData",
-                  "canonicalReference": "multiversus.js!ModeData:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "\"1v1\"",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "multiversus.js!ProfileResponse#\"2v2\":member",
-              "docComment": "/**\n * The user's stats in 2v2s  @type {ModeData}\n *\n * @readonly\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "'2v2': "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ModeData",
-                  "canonicalReference": "multiversus.js!ModeData:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "\"2v2\"",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "multiversus.js!ProfileResponse#account_id:member",
-              "docComment": "/**\n * The account ID of the profile  @type {string}\n *\n * @readonly\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "account_id: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "account_id",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "multiversus.js!ProfileResponse#aggregates:member",
-              "docComment": "/**\n * Aggregates for the user  @type {Object}\n *\n * @readonly\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "aggregates: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "aggregates",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "multiversus.js!ProfileResponse#calculations:member",
-              "docComment": "/**\n * Calculations for the user  @type {Object}\n *\n * @readonly\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "calculations: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "calculations",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "multiversus.js!ProfileResponse#created_at:member",
-              "docComment": "/**\n * The time the profile was created at  @type {string}\n *\n * @readonly\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "created_at: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "created_at",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "multiversus.js!ProfileResponse#cross_match_results:member",
-              "docComment": "/**\n * The user's cross match results  @type {Object}\n *\n * @readonly\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "cross_match_results: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "cross_match_results",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "multiversus.js!ProfileResponse#data:member",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "data: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "{\n\t\tIsChildAccount: boolean;\n\n\t\tPerkPreferences: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "PerkPreferences",
-                  "canonicalReference": "multiversus.js!PerkPreferences:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";\n\n\t\t'2v2_prompt_shown': number;\n\t}"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": false,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "data",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              },
-              "isStatic": false,
-              "isProtected": false
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "multiversus.js!ProfileResponse#ffa:member",
-              "docComment": "/**\n * The user's stats in ffa matches  @type {ModeData}\n *\n * @readonly\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "ffa: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ModeData",
-                  "canonicalReference": "multiversus.js!ModeData:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "ffa",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "multiversus.js!ProfileResponse#files:member",
-              "docComment": "/**\n * An array of files  @type {Object[]}\n *\n * @readonly\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "files: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "[]"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "files",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 3
-              },
-              "isStatic": false,
-              "isProtected": false
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "multiversus.js!ProfileResponse#id:member",
-              "docComment": "/**\n * The internal ID of the profile  @type {string}\n *\n * @readonly\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "id: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "id",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "multiversus.js!ProfileResponse#last_login:member",
-              "docComment": "/**\n * The time the user last logged in at  @type {string}\n *\n * @readonly\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "last_login: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "last_login",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "multiversus.js!ProfileResponse#matches:member",
-              "docComment": "/**\n * The user's match data, by mode  @type {ModeStats}\n *\n * @readonly\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "matches: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ModeStats",
-                  "canonicalReference": "multiversus.js!ModeStats:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "matches",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "multiversus.js!ProfileResponse#notifications:member",
-              "docComment": "/**\n * The user's notifications  @type {Object}\n *\n * @readonly\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "notifications: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "notifications",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "multiversus.js!ProfileResponse#points:member",
-              "docComment": "/**\n * The number of points the user has  @type {?boolean}\n *\n * @readonly\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "points: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "boolean | null"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "points",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "multiversus.js!ProfileResponse#random_distribution:member",
-              "docComment": "/**\n * The user's random distribution  @type {number}\n *\n * @readonly\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "random_distribution: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "number"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "random_distribution",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "multiversus.js!ProfileResponse#server_data:member",
-              "docComment": "/**\n * The user's server data  @type {ServerData}\n *\n * @readonly\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "server_data: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "ServerData",
-                  "canonicalReference": "multiversus.js!ServerData:class"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "server_data",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "multiversus.js!ProfileResponse#updated_at:member",
-              "docComment": "/**\n * The time the profile was last updated at  @type {string}\n *\n * @readonly\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "updated_at: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "updated_at",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
-            },
-            {
-              "kind": "Property",
-              "canonicalReference": "multiversus.js!ProfileResponse#user_segments:member",
-              "docComment": "/**\n * An array of user segments  @type {string[]}\n *\n * @readonly\n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "user_segments: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "string[]"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isReadonly": true,
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "user_segments",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
-            }
-          ],
           "implementsTokenRanges": []
         },
         {
@@ -3459,26 +3746,85 @@
         },
         {
           "kind": "Class",
-          "canonicalReference": "multiversus.js!SearchResponse:class",
-          "docComment": "/**\n * API response for searches\n */\n",
+          "canonicalReference": "multiversus.js!Search:class",
+          "docComment": "",
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export class SearchResponse "
+              "text": "export class Search extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Base",
+              "canonicalReference": "multiversus.js!Base:class"
+            },
+            {
+              "kind": "Content",
+              "text": " "
             }
           ],
           "releaseTag": "Public",
-          "name": "SearchResponse",
+          "name": "Search",
           "preserveMemberOrder": false,
           "members": [
             {
-              "kind": "Property",
-              "canonicalReference": "multiversus.js!SearchResponse#count:member",
-              "docComment": "/**\n * The number of results returned by this query  @type {number}\n *\n * @readonly\n */\n",
+              "kind": "Constructor",
+              "canonicalReference": "multiversus.js!Search:constructor(1)",
+              "docComment": "/**\n * Constructs a new instance of the `Search` class\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "count: "
+                  "text": "protected constructor(client: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Client",
+                  "canonicalReference": "multiversus.js!Client:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", data: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Object",
+                  "canonicalReference": "!Object:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ");"
+                }
+              ],
+              "releaseTag": "Public",
+              "isProtected": true,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "client",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "data",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                }
+              ]
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "multiversus.js!Search#count:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "public count: "
                 },
                 {
                   "kind": "Content",
@@ -3489,7 +3835,7 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "count",
@@ -3502,12 +3848,12 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "multiversus.js!SearchResponse#cursor:member",
-              "docComment": "/**\n * The cursor of the search  @type {string}\n *\n * @readonly\n */\n",
+              "canonicalReference": "multiversus.js!Search#cursor:member",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "cursor: "
+                  "text": "public cursor: "
                 },
                 {
                   "kind": "Content",
@@ -3518,7 +3864,7 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "cursor",
@@ -3531,17 +3877,17 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "multiversus.js!SearchResponse#results:member",
-              "docComment": "/**\n * The results of this query  @type {SearchResult[]|[]}\n *\n * @readonly\n */\n",
+              "canonicalReference": "multiversus.js!Search#results:member",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "results: "
+                  "text": "public results: "
                 },
                 {
                   "kind": "Reference",
                   "text": "SearchResult",
-                  "canonicalReference": "multiversus.js!SearchResult:class"
+                  "canonicalReference": "multiversus.js!SearchResult:interface"
                 },
                 {
                   "kind": "Content",
@@ -3552,7 +3898,7 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "results",
@@ -3565,12 +3911,12 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "multiversus.js!SearchResponse#start:member",
-              "docComment": "/**\n * The start of the search  @type {number}\n *\n * @readonly\n */\n",
+              "canonicalReference": "multiversus.js!Search#start:member",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "start: "
+                  "text": "public start: "
                 },
                 {
                   "kind": "Content",
@@ -3581,7 +3927,7 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "start",
@@ -3594,12 +3940,12 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "multiversus.js!SearchResponse#total:member",
-              "docComment": "/**\n * The total number of results  @type {number}\n *\n * @readonly\n */\n",
+              "canonicalReference": "multiversus.js!Search#total:member",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "total: "
+                  "text": "public total: "
                 },
                 {
                   "kind": "Content",
@@ -3610,7 +3956,7 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "total",
@@ -3622,16 +3968,20 @@
               "isProtected": false
             }
           ],
+          "extendsTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          },
           "implementsTokenRanges": []
         },
         {
-          "kind": "Class",
-          "canonicalReference": "multiversus.js!SearchResult:class",
-          "docComment": "/**\n * API response for search results\n */\n",
+          "kind": "Interface",
+          "canonicalReference": "multiversus.js!SearchResult:interface",
+          "docComment": "",
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export class SearchResult "
+              "text": "export interface SearchResult "
             }
           ],
           "releaseTag": "Public",
@@ -3639,9 +3989,9 @@
           "preserveMemberOrder": false,
           "members": [
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!SearchResult#result:member",
-              "docComment": "/**\n * The result  @type {ProfileResponse}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3649,29 +3999,27 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "ProfileResponse",
-                  "canonicalReference": "multiversus.js!ProfileResponse:class"
+                  "text": "Object",
+                  "canonicalReference": "!Object:interface"
                 },
                 {
                   "kind": "Content",
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "result",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
+              }
             },
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!SearchResult#score:member",
-              "docComment": "/**\n * The score of the result  @type {?number}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3686,28 +4034,26 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "score",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
+              }
             }
           ],
-          "implementsTokenRanges": []
+          "extendsTokenRanges": []
         },
         {
-          "kind": "Class",
-          "canonicalReference": "multiversus.js!ServerData:class",
-          "docComment": "/**\n * API response for a user's server data\n */\n",
+          "kind": "Interface",
+          "canonicalReference": "multiversus.js!ServerData:interface",
+          "docComment": "",
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export class ServerData "
+              "text": "export interface ServerData "
             }
           ],
           "releaseTag": "Public",
@@ -3715,9 +4061,9 @@
           "preserveMemberOrder": false,
           "members": [
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!ServerData#\"1v1shuffle\":member",
-              "docComment": "/**\n * Data on a users's performance in 1v1s, for use in matchmaking  @type {Object}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3733,21 +4079,19 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "\"1v1shuffle\"",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
+              }
             },
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!ServerData#\"2v2shuffle\":member",
-              "docComment": "/**\n * Data on a users's performance in 2v2s, for use in matchmaking  @type {Object}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3763,21 +4107,19 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "\"2v2shuffle\"",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
+              }
             },
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!ServerData#BattlepassID:member",
-              "docComment": "/**\n * The user's battle pass ID  @type {string}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3792,21 +4134,19 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "BattlepassID",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
+              }
             },
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!ServerData#Characters:member",
-              "docComment": "/**\n * Data on the user's characters  @type {Object}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3822,21 +4162,19 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "Characters",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
+              }
             },
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!ServerData#CurrentXP:member",
-              "docComment": "/**\n * The user's current XP  @type {number}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3851,21 +4189,19 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "CurrentXP",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
+              }
             },
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!ServerData#debug_all_unlocked:member",
-              "docComment": "/**\n * Debug flag specifying if the user has everything unlocked  @type {number}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3880,21 +4216,19 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "debug_all_unlocked",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
+              }
             },
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!ServerData#Level:member",
-              "docComment": "/**\n * The user's level  @type {number}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3909,21 +4243,19 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "Level",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
+              }
             },
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!ServerData#lifetime_damage:member",
-              "docComment": "/**\n * The user's lifetime damage  @type {number}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3938,21 +4270,19 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "lifetime_damage",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
+              }
             },
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!ServerData#lifetime_ringouts:member",
-              "docComment": "/**\n * The user's lifetime ringouts  @type {number}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3967,21 +4297,19 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "lifetime_ringouts",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
+              }
             },
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!ServerData#loss_streak:member",
-              "docComment": "/**\n * The user's loss streak  @type {number}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -3996,21 +4324,19 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "loss_streak",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
+              }
             },
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!ServerData#matches_played:member",
-              "docComment": "/**\n * The number of matches a user has played  @type {number}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4025,21 +4351,19 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "matches_played",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
+              }
             },
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!ServerData#OwnedPerks:member",
-              "docComment": "/**\n * An objects of the user's owned perks by character  @type {Object}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4055,21 +4379,19 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "OwnedPerks",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
+              }
             },
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!ServerData#RecentlyToasted:member",
-              "docComment": "/**\n * An array of IDs the user recently toasted  @type {string[]|[]}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4084,21 +4406,19 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "RecentlyToasted",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
+              }
             },
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!ServerData#sets_played:member",
-              "docComment": "/**\n * The number of sets a user has played  @type {number}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4113,21 +4433,19 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "sets_played",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
+              }
             },
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!ServerData#stat_trackers:member",
-              "docComment": "/**\n * An object containing stat trackers  @type {StatTrackers}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4136,28 +4454,26 @@
                 {
                   "kind": "Reference",
                   "text": "StatTrackers",
-                  "canonicalReference": "multiversus.js!StatTrackers:class"
+                  "canonicalReference": "multiversus.js!StatTrackers:interface"
                 },
                 {
                   "kind": "Content",
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "stat_trackers",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
+              }
             },
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!ServerData#UnclaimedCharacterMasteryRewards:member",
-              "docComment": "/**\n * The user's unclaimed character mastery rewards  @type {Object}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4173,28 +4489,26 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "UnclaimedCharacterMasteryRewards",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
+              }
             }
           ],
-          "implementsTokenRanges": []
+          "extendsTokenRanges": []
         },
         {
-          "kind": "Class",
-          "canonicalReference": "multiversus.js!StatTrackers:class",
-          "docComment": "/**\n * API response for a user's tracked stats\n */\n",
+          "kind": "Interface",
+          "canonicalReference": "multiversus.js!StatTrackers:interface",
+          "docComment": "",
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export class StatTrackers "
+              "text": "export interface StatTrackers "
             }
           ],
           "releaseTag": "Public",
@@ -4202,38 +4516,37 @@
           "preserveMemberOrder": false,
           "members": [
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!StatTrackers#character_wins:member",
-              "docComment": "/**\n * The user's character wins  @type {Object}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
                   "text": "character_wins: "
                 },
                 {
-                  "kind": "Content",
-                  "text": "object"
+                  "kind": "Reference",
+                  "text": "Object",
+                  "canonicalReference": "!Object:interface"
                 },
                 {
                   "kind": "Content",
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "character_wins",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
+              }
             },
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!StatTrackers#HighestDamageDealt:member",
-              "docComment": "/**\n * The user's highest damage dealt  @type {number}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4248,21 +4561,19 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "HighestDamageDealt",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
+              }
             },
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!StatTrackers#TotalAssists:member",
-              "docComment": "/**\n * The user's total assists  @type {number}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4277,21 +4588,19 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "TotalAssists",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
+              }
             },
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!StatTrackers#TotalAttacksDodged:member",
-              "docComment": "/**\n * The user's total attacks dodged  @type {number}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4306,21 +4615,19 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "TotalAttacksDodged",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
+              }
             },
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!StatTrackers#TotalDoubleRingouts:member",
-              "docComment": "/**\n * The user's total double ringouts  @type {number}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4335,21 +4642,19 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "TotalDoubleRingouts",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
+              }
             },
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!StatTrackers#TotalRingoutLeader:member",
-              "docComment": "/**\n * The user's total number of times they've been a ringout leader  @type {number}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4364,21 +4669,19 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "TotalRingoutLeader",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
+              }
             },
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!StatTrackers#TotalRingouts:member",
-              "docComment": "/**\n * The user's total ringouts  @type {number}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4393,21 +4696,19 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "TotalRingouts",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
+              }
             },
             {
-              "kind": "Property",
+              "kind": "PropertySignature",
               "canonicalReference": "multiversus.js!StatTrackers#TotalWins:member",
-              "docComment": "/**\n * The user's total wins  @type {number}\n *\n * @readonly\n */\n",
+              "docComment": "",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -4422,19 +4723,17 @@
                   "text": ";"
                 }
               ],
-              "isReadonly": true,
+              "isReadonly": false,
               "isOptional": false,
               "releaseTag": "Public",
               "name": "TotalWins",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isStatic": false,
-              "isProtected": false
+              }
             }
           ],
-          "implementsTokenRanges": []
+          "extendsTokenRanges": []
         }
       ]
     }
