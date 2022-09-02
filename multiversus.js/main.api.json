@@ -1329,7 +1329,16 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export class Client "
+              "text": "export class Client extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "EventEmitter",
+              "canonicalReference": "!EventEmitter:class"
+            },
+            {
+              "kind": "Content",
+              "text": " "
             }
           ],
           "releaseTag": "Public",
@@ -1953,6 +1962,10 @@
               "isProtected": false
             }
           ],
+          "extendsTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          },
           "implementsTokenRanges": []
         },
         {
