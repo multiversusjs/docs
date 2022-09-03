@@ -1705,6 +1705,14 @@
                 },
                 {
                   "kind": "Content",
+                  "text": ", token: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string | null"
+                },
+                {
+                  "kind": "Content",
                   "text": "): "
                 },
                 {
@@ -1723,8 +1731,8 @@
               ],
               "isStatic": false,
               "returnTypeTokenRange": {
-                "startIndex": 5,
-                "endIndex": 7
+                "startIndex": 7,
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -1743,6 +1751,14 @@
                   "parameterTypeTokenRange": {
                     "startIndex": 3,
                     "endIndex": 4
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "token",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 5,
+                    "endIndex": 6
                   },
                   "isOptional": false
                 }
