@@ -219,16 +219,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
+                  "text": "<any>"
                 },
                 {
                   "kind": "Content",
@@ -238,7 +229,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
-                "endIndex": 7
+                "endIndex": 5
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -470,16 +461,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
+                  "text": "<any>"
                 },
                 {
                   "kind": "Content",
@@ -489,7 +471,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
-                "endIndex": 7
+                "endIndex": 5
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -1262,16 +1244,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
+                  "text": "<any>"
                 },
                 {
                   "kind": "Content",
@@ -1281,7 +1254,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 7,
-                "endIndex": 11
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -1580,16 +1553,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
+                  "text": "<any>"
                 },
                 {
                   "kind": "Content",
@@ -1599,7 +1563,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
-                "endIndex": 7
+                "endIndex": 5
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -2075,16 +2039,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
+                  "text": "<any>"
                 },
                 {
                   "kind": "Content",
@@ -2094,7 +2049,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
-                "endIndex": 7
+                "endIndex": 5
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -2144,16 +2099,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
+                  "text": "<any>"
                 },
                 {
                   "kind": "Content",
@@ -2163,7 +2109,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
-                "endIndex": 9
+                "endIndex": 7
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -2221,16 +2167,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
+                  "text": "<any>"
                 },
                 {
                   "kind": "Content",
@@ -2240,7 +2177,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
-                "endIndex": 9
+                "endIndex": 7
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -2306,16 +2243,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
+                  "text": "<any>"
                 },
                 {
                   "kind": "Content",
@@ -2325,7 +2253,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 7,
-                "endIndex": 11
+                "endIndex": 9
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -2438,16 +2366,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
+                  "text": "<any>"
                 },
                 {
                   "kind": "Content",
@@ -2457,7 +2376,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
-                "endIndex": 7
+                "endIndex": 5
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -2507,16 +2426,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
+                  "text": "<any>"
                 },
                 {
                   "kind": "Content",
@@ -2526,7 +2436,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 5,
-                "endIndex": 9
+                "endIndex": 7
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -2823,9 +2733,8 @@
                   "text": "Characters: "
                 },
                 {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
+                  "kind": "Content",
+                  "text": "any"
                 },
                 {
                   "kind": "Content",
@@ -2946,9 +2855,8 @@
                   "text": ", data: "
                 },
                 {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
+                  "kind": "Content",
+                  "text": "any"
                 },
                 {
                   "kind": "Content",
@@ -3016,9 +2924,8 @@
                   "text": "public aggregates: "
                 },
                 {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
+                  "kind": "Content",
+                  "text": "any"
                 },
                 {
                   "kind": "Content",
@@ -3046,9 +2953,8 @@
                   "text": "public calculations: "
                 },
                 {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
+                  "kind": "Content",
+                  "text": "any"
                 },
                 {
                   "kind": "Content",
@@ -3105,9 +3011,8 @@
                   "text": "public cross_match_results: "
                 },
                 {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
+                  "kind": "Content",
+                  "text": "any"
                 },
                 {
                   "kind": "Content",
@@ -3203,13 +3108,8 @@
                   "text": "public files: "
                 },
                 {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
-                },
-                {
                   "kind": "Content",
-                  "text": "[]"
+                  "text": "any[]"
                 },
                 {
                   "kind": "Content",
@@ -3222,7 +3122,7 @@
               "name": "files",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 3
+                "endIndex": 2
               },
               "isStatic": false,
               "isProtected": false
@@ -3325,9 +3225,8 @@
                   "text": "public notifications: "
                 },
                 {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
+                  "kind": "Content",
+                  "text": "any"
                 },
                 {
                   "kind": "Content",
@@ -3729,16 +3628,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "<"
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ">"
+                  "text": "<any>"
                 },
                 {
                   "kind": "Content",
@@ -3748,7 +3638,7 @@
               "isStatic": false,
               "returnTypeTokenRange": {
                 "startIndex": 3,
-                "endIndex": 7
+                "endIndex": 5
               },
               "releaseTag": "Public",
               "isProtected": false,
@@ -3815,9 +3705,8 @@
                   "text": ", data: "
                 },
                 {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
+                  "kind": "Content",
+                  "text": "any"
                 },
                 {
                   "kind": "Content",
@@ -4027,9 +3916,8 @@
                   "text": "result: "
                 },
                 {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
+                  "kind": "Content",
+                  "text": "any"
                 },
                 {
                   "kind": "Content",
@@ -4099,9 +3987,8 @@
                   "text": "'1v1shuffle': "
                 },
                 {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
+                  "kind": "Content",
+                  "text": "any"
                 },
                 {
                   "kind": "Content",
@@ -4127,9 +4014,8 @@
                   "text": "'2v2shuffle': "
                 },
                 {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
+                  "kind": "Content",
+                  "text": "any"
                 },
                 {
                   "kind": "Content",
@@ -4182,9 +4068,8 @@
                   "text": "Characters: "
                 },
                 {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
+                  "kind": "Content",
+                  "text": "any"
                 },
                 {
                   "kind": "Content",
@@ -4399,9 +4284,8 @@
                   "text": "OwnedPerks: "
                 },
                 {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
+                  "kind": "Content",
+                  "text": "any"
                 },
                 {
                   "kind": "Content",
@@ -4509,9 +4393,8 @@
                   "text": "UnclaimedCharacterMasteryRewards: "
                 },
                 {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
+                  "kind": "Content",
+                  "text": "any"
                 },
                 {
                   "kind": "Content",
@@ -4554,9 +4437,8 @@
                   "text": "character_wins: "
                 },
                 {
-                  "kind": "Reference",
-                  "text": "Object",
-                  "canonicalReference": "!Object:interface"
+                  "kind": "Content",
+                  "text": "any"
                 },
                 {
                   "kind": "Content",
