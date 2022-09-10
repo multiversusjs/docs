@@ -662,6 +662,36 @@
             },
             {
               "kind": "Property",
+              "canonicalReference": "multiversus.js!CharacterData.Gizmo:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "static Gizmo: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "CharacterDataType",
+                  "canonicalReference": "multiversus.js!CharacterDataType:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "Gizmo",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": true,
+              "isProtected": false
+            },
+            {
+              "kind": "Property",
               "canonicalReference": "multiversus.js!CharacterData.HarleyQuinn:member",
               "docComment": "",
               "excerptTokens": [
